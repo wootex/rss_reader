@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "h7WtxOWZVRXVs2l7BZKbh+OiV4fix/RuMVBxTtlq3oGaJOK2SE0hJEsLSLQwJDpgoVo6GoSgqz3PAExLpkcO7w==",
+  "dgSpecHash": "5FkGhKnVA7nlTO+S5HuZc2Wq5AYQ9Hfz4eRGm5Rv8nJaVpqpXv9X6wLL70+qlYudnc3r6g/5WQFsFfPjj556Hg==",
   "success": true,
   "projectFilePath": "C:\\Users\\anton\\Documents\\GitHub\\rss_reader\\rss_reader_group3\\DataAccessLayer\\DataAccessLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\anton\\.nuget\\packages\\system.servicemodel.syndication\\5.0.0\\system.servicemodel.syndication.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

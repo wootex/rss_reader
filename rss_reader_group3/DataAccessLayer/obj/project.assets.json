@@ -1,11 +1,52 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "System.ServiceModel.Syndication/5.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/System.ServiceModel.Syndication.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.Syndication.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "System.ServiceModel.Syndication/5.0.0": {
+      "sha512": "xjwRFydlevI/DMLlBcDRbOmofJTZNoJ0FCkEPdMw9i+85lDbl8Pw001LJKQbRSeHSVJCEuPfAvEuC1TAumxcmw==",
+      "type": "package",
+      "path": "system.servicemodel.syndication/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.ServiceModel.Syndication.dll",
+        "lib/net461/System.ServiceModel.Syndication.xml",
+        "lib/netstandard2.0/System.ServiceModel.Syndication.dll",
+        "lib/netstandard2.0/System.ServiceModel.Syndication.xml",
+        "ref/net461/System.ServiceModel.Syndication.dll",
+        "ref/net461/System.ServiceModel.Syndication.xml",
+        "ref/netcoreapp2.1/System.ServiceModel.Syndication.dll",
+        "ref/netcoreapp2.1/System.ServiceModel.Syndication.xml",
+        "ref/netstandard2.0/System.ServiceModel.Syndication.dll",
+        "ref/netstandard2.0/System.ServiceModel.Syndication.xml",
+        "runtimes/win/lib/net461/System.ServiceModel.Syndication.dll",
+        "runtimes/win/lib/net461/System.ServiceModel.Syndication.xml",
+        "system.servicemodel.syndication.5.0.0.nupkg.sha512",
+        "system.servicemodel.syndication.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "System.ServiceModel.Syndication >= 5.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\anton\\.nuget\\packages\\": {}
@@ -45,6 +86,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "System.ServiceModel.Syndication": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
