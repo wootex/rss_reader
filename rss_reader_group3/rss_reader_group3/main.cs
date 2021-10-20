@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static DataAccessLayer.FileReader;
+
 
 namespace rss_reader_group3
 {
@@ -20,6 +22,11 @@ namespace rss_reader_group3
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -38,6 +38,10 @@ namespace rss_reader_group3
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ColumnEpisode = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnFreq = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnCat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,10 +52,6 @@ namespace rss_reader_group3
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.ColumnEpisode = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnFreq = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnCat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -109,6 +109,7 @@ namespace rss_reader_group3
             this.button4.TabIndex = 5;
             this.button4.Text = "Ny";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -141,6 +142,26 @@ namespace rss_reader_group3
             this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView1.Size = new System.Drawing.Size(435, 150);
             this.dataGridView1.TabIndex = 8;
+            // 
+            // ColumnEpisode
+            // 
+            this.ColumnEpisode.HeaderText = "Avsnitt";
+            this.ColumnEpisode.Name = "ColumnEpisode";
+            // 
+            // ColumnName
+            // 
+            this.ColumnName.HeaderText = "Namn";
+            this.ColumnName.Name = "ColumnName";
+            // 
+            // ColumnFreq
+            // 
+            this.ColumnFreq.HeaderText = "Frekvens";
+            this.ColumnFreq.Name = "ColumnFreq";
+            // 
+            // ColumnCat
+            // 
+            this.ColumnCat.HeaderText = "Kategori";
+            this.ColumnCat.Name = "ColumnCat";
             // 
             // dataGridView2
             // 
@@ -225,26 +246,6 @@ namespace rss_reader_group3
             this.richTextBox1.Size = new System.Drawing.Size(266, 151);
             this.richTextBox1.TabIndex = 21;
             this.richTextBox1.Text = "";
-            // 
-            // ColumnEpisode
-            // 
-            this.ColumnEpisode.HeaderText = "Avsnitt";
-            this.ColumnEpisode.Name = "ColumnEpisode";
-            // 
-            // ColumnName
-            // 
-            this.ColumnName.HeaderText = "Namn";
-            this.ColumnName.Name = "ColumnName";
-            // 
-            // ColumnFreq
-            // 
-            this.ColumnFreq.HeaderText = "Frekvens";
-            this.ColumnFreq.Name = "ColumnFreq";
-            // 
-            // ColumnCat
-            // 
-            this.ColumnCat.HeaderText = "Kategori";
-            this.ColumnCat.Name = "ColumnCat";
             // 
             // label6
             // 
