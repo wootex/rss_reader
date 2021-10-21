@@ -6,32 +6,57 @@ using System.ServiceModel.Syndication;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Xml.Linq;
 
 namespace DataAccess
 {
-    public static class ReadXml
+    public class ReadXml
     {
+        private static int episodeLength;
+        private static string podcastName;
         public static void ReadFile(string url)
         {
-            FileStream xmlFile = new FileStream("podcasts.txt", FileMode.Create, FileAccess.Write);
-            StreamWriter writer = new StreamWriter(xmlFile);
-
             
 
             XmlReader reader = XmlReader.Create(url);
+            
+            
+           
             SyndicationFeed feed = SyndicationFeed.Load(reader);
+            List<string> episodeList = new List<string>();
+            List<string> titleList = new List<string>();
 
+            Console.WriteLine(feed.Title.Text); //!!!!!!!
+            Console.WriteLine(feed.Description.Text);
+
+            podcastName = feed.Title.Text;
+            
             foreach (SyndicationItem item in feed.Items)
             {
-                Console.WriteLine(item.Title.Text);
-                Console.WriteLine("->" + item.Summary.Text);
-
-                writer.WriteLine(item.Title.Text);
-                writer.WriteLine("->" + item.Summary.Text);
+                episodeList.Add(item.Title.Text);
 
             }
-            writer.Close();
-            xmlFile.Close();
+
+            foreach (SyndicationItem title in feed.Items)
+
+            {
+                titleList.Add(title.Title.Text);
+               
+            }
+                
+            episodeLength = episodeList.Count;
+            
+        }
+
+        public static int ReturnEpisodes()
+        {
+
+            return episodeLength;
+        }
+        public static string ReturnPodName()
+        {
+
+            return podcastName;
         }
     }
 }

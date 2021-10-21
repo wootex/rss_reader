@@ -8,7 +8,7 @@ namespace Models
 {
     public class Podcast
     {
-
+        
         public string title { get; set; }
        
         public string category { get; set; }

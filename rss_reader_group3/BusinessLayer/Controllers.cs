@@ -19,23 +19,30 @@ namespace BusinessLayer.Controllers
         {
             serializer = new SerializerForXml();
         }
-        public void CreatePodcast(string url, string freq, string category)
+        public Podcast CreatePodcast(string url, string freq, string category)
         {
             //---------------
 
-            
+            ReadXml.ReadFile(url);
 
             //------------------
 
             Podcast newPodcast = new Podcast();
-            newPodcast.title = "Björnen sover";
+
+            newPodcast.title = ReadXml.ReturnPodName(); //titel från XML filen
             newPodcast.category = category;
-            newPodcast.episodes = 200;
-            newPodcast.frequency = 10;
+           
+            newPodcast.episodes = ReadXml.ReturnEpisodes();//antal episoder från en podcast hämtat från XML
+            newPodcast.frequency = Int32.Parse(freq);
 
             List<Podcast> podcastList = new List<Podcast>();
             podcastList.Add(newPodcast);
             serializer.Serialize(podcastList);
+            return newPodcast;
         }
+        
+
+
+
     }
 }

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BusinessLayer.Controllers;
-
+using Models;
 namespace Program
 {
     public partial class Form1 : Form
@@ -24,7 +24,14 @@ namespace Program
 
         private void btnNew_Click(object sender, EventArgs e)
         {
-            podController.CreatePodcast(txtUrl.Text, cBoxFreq.Text, cBoxCat.Text);
+            //podController.CreatePodcast(txtUrl, cBoxFreq.Text, cBoxCat.Text
+            Podcast podCast = podController.CreatePodcast(txtUrl.Text, cBoxFreq.Text, cBoxCat.Text);
+
+            dataGridView1.Rows.Add(podCast.episodes, podCast.title, podCast.frequency, podCast.category);
+
+
+
+
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    class Episode : Podcast
+    public class Episode : Podcast
     {
 
         public string description { get; set; }

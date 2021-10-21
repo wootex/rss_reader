@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <ArrayOfPodcast xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Podcast>
-    <title>Björnen sover</title>
-    <category>Historia</category>
-    <episodes>200</episodes>
+    <title>Röda vita rosen</title>
+    <category>Nyheter</category>
+    <episodes>32</episodes>
     <frequency>10</frequency>
   </Podcast>
 </ArrayOfPodcast>
