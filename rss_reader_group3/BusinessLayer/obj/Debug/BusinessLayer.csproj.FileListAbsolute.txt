@@ -10,3 +10,4 @@ C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\bin\D
 C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache

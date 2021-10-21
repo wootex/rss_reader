@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BusinessLayer.Controllers;
+using Models;
 
 namespace Program
 {
@@ -18,6 +19,7 @@ namespace Program
         {
             InitializeComponent();
             this.podController = new Controllers();
+
         }
 
         
@@ -25,6 +27,13 @@ namespace Program
         private void btnNew_Click(object sender, EventArgs e)
         {
             podController.CreatePodcast(txtUrl.Text, cBoxFreq.Text, cBoxCat.Text);
+            
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

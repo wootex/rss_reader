@@ -8,6 +8,10 @@ namespace Models
 {
     public class Podcast
     {
+        public Podcast()
+        {
+
+        }
 
         public string title { get; set; }
        
