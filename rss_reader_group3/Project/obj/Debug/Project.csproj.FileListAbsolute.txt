@@ -1,0 +1,15 @@
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\bin\Debug\Project.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\bin\Debug\Project.pdb
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\bin\Debug\BusinessLayer.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\bin\Debug\Models.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\bin\Debug\System.ServiceModel.Syndication.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\bin\Debug\BusinessLayer.pdb
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\bin\Debug\Models.pdb
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\bin\Debug\System.ServiceModel.Syndication.xml
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\obj\Debug\Project.csproj.AssemblyReference.cache
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\obj\Debug\Project.Form1.resources
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\obj\Debug\Project.csproj.GenerateResource.cache
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\obj\Debug\Project.csproj.CopyComplete
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\obj\Debug\Project.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Project\obj\Debug\Project.pdb

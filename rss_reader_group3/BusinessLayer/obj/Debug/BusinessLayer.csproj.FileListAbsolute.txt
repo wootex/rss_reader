@@ -1,0 +1,12 @@
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\bin\Debug\DataAccess.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\bin\Debug\Models.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\bin\Debug\System.ServiceModel.Syndication.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\bin\Debug\DataAccess.pdb
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\bin\Debug\Models.pdb
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\bin\Debug\System.ServiceModel.Syndication.xml
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\BusinessLayer\obj\Debug\BusinessLayer.pdb

@@ -13,3 +13,4 @@ rss_reader_group3/Project/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cac
 rss_reader_group3/Models/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 rss_reader_group3/DataAccess/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 rss_reader_group3/BusinessLayer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.cache

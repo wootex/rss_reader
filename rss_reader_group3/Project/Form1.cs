@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static BusinessLayer.Controllers;
 
 namespace Project
 {
@@ -15,6 +16,17 @@ namespace Project
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            BusinessLayer.Controllers.test();
+
         }
     }
 }

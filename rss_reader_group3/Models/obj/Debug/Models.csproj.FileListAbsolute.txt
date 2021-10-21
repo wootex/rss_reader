@@ -1,0 +1,9 @@
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Models\bin\Debug\Models.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Models\bin\Debug\Models.pdb
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Models\bin\Debug\System.ServiceModel.Syndication.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Models\bin\Debug\System.ServiceModel.Syndication.xml
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Models\obj\Debug\Models.csproj.CopyComplete
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Models\obj\Debug\Models.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Models\obj\Debug\Models.pdb

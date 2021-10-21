@@ -13,9 +13,11 @@ namespace Models
        
         public string category { get; set; }
 
+        public int episodes { get; set; }
 
-        public int Episodes { get; set; }
+        public int frequency { get; set; }
 
+        
 
     }
 }

@@ -1,0 +1,17 @@
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\bin\Debug\Program.exe.config
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\bin\Debug\Program.exe
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\bin\Debug\Program.pdb
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\obj\Debug\Program.csproj.AssemblyReference.cache
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\obj\Debug\Program.Properties.Resources.resources
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\obj\Debug\Program.csproj.GenerateResource.cache
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\obj\Debug\Program.csproj.CoreCompileInputs.cache
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\obj\Debug\Program.exe
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\obj\Debug\Program.pdb
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\obj\Debug\Program.Form1.resources
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\bin\Debug\BusinessLayer.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\bin\Debug\Models.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\bin\Debug\BusinessLayer.pdb
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\bin\Debug\Models.pdb
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\obj\Debug\Program.csproj.CopyComplete
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\bin\Debug\DataAccess.dll
+C:\Users\anton\Documents\GitHub\rss_reader\rss_reader_group3\Program\bin\Debug\DataAccess.pdb
