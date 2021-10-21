@@ -49,20 +49,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\anton\\.nuget\\packages\\": {}
+    "C:\\Users\\rehns\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anton\\Documents\\GitHub\\rss_reader\\rss_reader_group3\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\rehns\\OneDrive\\Documents\\GitHub\\rss_reader\\rss_reader_group3\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\anton\\Documents\\GitHub\\rss_reader\\rss_reader_group3\\BusinessLayer\\BusinessLayer.csproj",
-      "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anton\\Documents\\GitHub\\rss_reader\\rss_reader_group3\\BusinessLayer\\obj\\",
+      "projectPath": "C:\\Users\\rehns\\OneDrive\\Documents\\GitHub\\rss_reader\\rss_reader_group3\\BusinessLayer\\BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\rehns\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rehns\\OneDrive\\Documents\\GitHub\\rss_reader\\rss_reader_group3\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\rehns\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
