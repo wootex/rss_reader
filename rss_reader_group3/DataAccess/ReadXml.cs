@@ -14,6 +14,7 @@ namespace DataAccess
     {
         private static int episodeLength;
         private static string podcastName;
+        private static List<string> episodeList;
         public static void ReadFile(string url)
         {
             
@@ -26,8 +27,8 @@ namespace DataAccess
             List<string> episodeList = new List<string>();
             List<string> titleList = new List<string>();
 
-            Console.WriteLine(feed.Title.Text); //!!!!!!!
-            Console.WriteLine(feed.Description.Text);
+            //Console.WriteLine(feed.Title.Text); //!!!!!!!
+            //Console.WriteLine(feed.Description.Text);
 
             podcastName = feed.Title.Text;
             
@@ -36,6 +37,9 @@ namespace DataAccess
                 episodeList.Add(item.Title.Text);
 
             }
+
+            //episodeList.ForEach(num => Console.WriteLine(num + ", "));
+            
 
             foreach (SyndicationItem title in feed.Items)
 
@@ -57,6 +61,12 @@ namespace DataAccess
         {
 
             return podcastName;
+        }
+
+        public static List<string> returnEpisodeList()
+        {
+            return episodeList;
+            //Console.WriteLine(episodeList);
         }
     }
 }

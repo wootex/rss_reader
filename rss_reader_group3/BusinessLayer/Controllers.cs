@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using DataAccess;
 using Models;
+using System.Data;
 
 
 namespace BusinessLayer.Controllers
@@ -14,6 +15,7 @@ namespace BusinessLayer.Controllers
     public class Controllers
     {
         SerializerForXml serializer;
+        private static List<string> episodeList;
 
         public Controllers()
         {
@@ -38,11 +40,22 @@ namespace BusinessLayer.Controllers
             List<Podcast> podcastList = new List<Podcast>();
             podcastList.Add(newPodcast);
             serializer.Serialize(podcastList);
+
+            episodeList = ReadXml.returnEpisodeList();
+            
+
             return newPodcast;
         }
-        
 
 
+        public static List<string> returnEpisodeList()
+        {
+            foreach(var item in episodeList)
+            {
+                Console.WriteLine(item);
+            }
+            return episodeList;
+        }
 
     }
 }

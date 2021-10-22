@@ -30,8 +30,8 @@ namespace Program
         private void InitializeComponent()
         {
             this.listView2 = new System.Windows.Forms.ListView();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.label5 = new System.Windows.Forms.Label();
+            this.listViewEpisodes = new System.Windows.Forms.ListView();
+            this.lblPodcast = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -49,9 +49,9 @@ namespace Program
             this.colFreq = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colEpisode = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnSave = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,23 +64,23 @@ namespace Program
             this.listView2.TabIndex = 37;
             this.listView2.UseCompatibleStateImageBehavior = false;
             // 
-            // listView1
+            // listViewEpisodes
             // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(38, 330);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(397, 97);
-            this.listView1.TabIndex = 36;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listViewEpisodes.HideSelection = false;
+            this.listViewEpisodes.Location = new System.Drawing.Point(38, 330);
+            this.listViewEpisodes.Name = "listViewEpisodes";
+            this.listViewEpisodes.Size = new System.Drawing.Size(397, 97);
+            this.listViewEpisodes.TabIndex = 36;
+            this.listViewEpisodes.UseCompatibleStateImageBehavior = false;
             // 
-            // label5
+            // lblPodcast
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(35, 301);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(169, 13);
-            this.label5.TabIndex = 35;
-            this.label5.Text = "Podcast (#nummer: avsnitssnamn)";
+            this.lblPodcast.AutoSize = true;
+            this.lblPodcast.Location = new System.Drawing.Point(35, 301);
+            this.lblPodcast.Name = "lblPodcast";
+            this.lblPodcast.Size = new System.Drawing.Size(169, 13);
+            this.lblPodcast.TabIndex = 35;
+            this.lblPodcast.Text = "Podcast (#nummer: avsnitssnamn)";
             // 
             // richTextBox1
             // 
@@ -140,7 +140,7 @@ namespace Program
             "Brott",
             "Historia",
             "Nyheter"});
-            this.cBoxCat.Location = new System.Drawing.Point(307, 221);
+            this.cBoxCat.Location = new System.Drawing.Point(314, 221);
             this.cBoxCat.Name = "cBoxCat";
             this.cBoxCat.Size = new System.Drawing.Size(121, 21);
             this.cBoxCat.TabIndex = 28;
@@ -156,15 +156,17 @@ namespace Program
             this.cBoxFreq.Name = "cBoxFreq";
             this.cBoxFreq.Size = new System.Drawing.Size(121, 21);
             this.cBoxFreq.TabIndex = 27;
+            this.cBoxFreq.SelectedIndexChanged += new System.EventHandler(this.cBoxFreq_SelectedIndexChanged);
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(353, 266);
+            this.btnDelete.Location = new System.Drawing.Point(278, 266);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 26;
             this.btnDelete.Text = "Ta bort";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // label3
             // 
@@ -220,22 +222,13 @@ namespace Program
             this.colEpisode.HeaderText = "Avsnitt";
             this.colEpisode.Name = "colEpisode";
             // 
-            // btnSave
-            // 
-            this.btnSave.Location = new System.Drawing.Point(256, 266);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
-            this.btnSave.TabIndex = 25;
-            this.btnSave.Text = "Spara";
-            this.btnSave.UseVisualStyleBackColor = true;
-            // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(161, 266);
+            this.btnNew.Location = new System.Drawing.Point(197, 266);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(75, 23);
             this.btnNew.TabIndex = 24;
-            this.btnNew.Text = "Ny";
+            this.btnNew.Text = "Spara";
             this.btnNew.UseVisualStyleBackColor = true;
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
@@ -251,15 +244,27 @@ namespace Program
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(436, 150);
             this.dataGridView1.TabIndex = 19;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(359, 265);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 38;
+            this.button4.Text = "Ta bort allt";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 446);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.listView2);
-            this.Controls.Add(this.listView1);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.listViewEpisodes);
+            this.Controls.Add(this.lblPodcast);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -273,7 +278,6 @@ namespace Program
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUrl);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form1";
@@ -287,8 +291,8 @@ namespace Program
         #endregion
 
         private System.Windows.Forms.ListView listView2;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ListView listViewEpisodes;
+        private System.Windows.Forms.Label lblPodcast;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
@@ -306,9 +310,9 @@ namespace Program
         private System.Windows.Forms.DataGridViewTextBoxColumn colFreq;
         private System.Windows.Forms.DataGridViewTextBoxColumn colName;
         private System.Windows.Forms.DataGridViewTextBoxColumn colEpisode;
-        private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button4;
     }
 }
 

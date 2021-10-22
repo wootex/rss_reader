@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <ArrayOfPodcast xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Podcast>
-    <title>Röda vita rosen</title>
-    <category>Nyheter</category>
-    <episodes>32</episodes>
-    <frequency>10</frequency>
+    <title>P3 Dokumentär</title>
+    <category>Brott</category>
+    <episodes>451</episodes>
+    <frequency>30</frequency>
   </Podcast>
 </ArrayOfPodcast>
